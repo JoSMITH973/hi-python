@@ -15,7 +15,7 @@ while user_choice != n :
     user_choice = int(input())
 
 print("Well played, the good number was : ",n)
-print("Press 'Y' then 'Enter' to play again or press enter to leave.")
+print("Do you want to replay ? (Y/N)")
 choice = input()
 if choice == "Y" or choice == "y" :
     os.system("python guessing.py") 
