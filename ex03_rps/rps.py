@@ -1,5 +1,5 @@
 import os
-from random import randint
+from random import *
 
 n = randint(1,3)
 
