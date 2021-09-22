@@ -1,1 +1,3 @@
-# hi-python
+# Projet hi-python
+#
+## Joan SMITH
