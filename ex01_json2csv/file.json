@@ -1,14 +1,17 @@
-{
-    "common": {
-        "funcName": "json2ini",
-        "ext": "py",
-        "folderName": "ex00_json2ini"
+[
+    {
+        "id":1,
+        "auteur":"Masashi KISHIMOTO",
+        "nom": "Naruto"
     },
-    "functions":{
-        "func1": "convertjson2ini",
-        "func2": "convertjson2csv",
-        "func3": "guessing",
-        "func4": "rock-paper-scissors",
-        "func5": "hangman"
+    {
+        "id":2,
+        "auteur": "Akira TORIYAMA",
+        "nom": "Dragon Ball"
+    },
+    {
+        "id":3,
+        "auteur": "Matt GROENING",
+        "nom": "Les SIMPSON"
     }
-}
+]
