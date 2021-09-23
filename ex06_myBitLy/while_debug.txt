@@ -1,0 +1,29 @@
+i = True
+j = False
+while True and urlExist == False:
+    short_exist = False
+    for object in data :
+        print("objet :",object["short_url"][-4:])
+        print("random :",end_url_random)
+        if end_url_random == object["short_url"][-4:] and i == True:
+            end_url_random = "g4vs"
+            i = False
+            j = True
+            short_exist = True
+            print("beak \n")
+            break
+        if end_url_random == object["short_url"][-4:] and j == True:
+            end_url_random = "f9dr"
+            j = False
+            short_exist = True
+            print("beak \n")
+            break
+        if end_url_random == object["short_url"][-4:] and i == False and j == False :
+            print("On re génère !")
+            end_url_random = url_random()
+            short_exist = True
+            print("beak \n")
+            break
+        print()
+    if short_exist == False :
+        break
